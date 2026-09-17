@@ -1,0 +1,5 @@
+name: nikolaevich-social-env
+config:
+  type: cloud
+  networking:
+    type: unrestricted # needed so the container/MCP proxy can reach the Zapier MCP server
